@@ -1,5 +1,5 @@
-@import url("components/box.css");
-@import url("components/container.css");
+@import url("box.css");
+@import url("container.css");
 
 @media (max-width: 960px) {
   .container {
