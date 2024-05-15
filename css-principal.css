@@ -1,0 +1,42 @@
+@import url("banniere.css");
+@import url("logotgo.css");
+@import url("bannierefixe.css");
+@import url("video.css");
+@import url("barreTGO.css");
+@import url("description.css");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Concert+One&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("seloger.css");
+@import url("box.css");
+@import url("container.css");
+@import url("style.css");
+
+
+a.lien-menu {
+    text-decoration: none;
+    color: #00C9FF; /* Couleur du texte */
+}
+
+a:hover {
+    color: #86FDFF;
+}
+
+body {
+  font-family: "Spectral", serif;
+  font-style: normal;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }

@@ -1,0 +1,86 @@
+.box2 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box2:hover {
+    transform: scale(1.05);
+}
+
+
+.futsal {
+    color: white;
+    font-size: 18px;
+    flex-basis: 500px;
+    height: 730px;
+    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/footcss.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.ligne1 {
+    flex-direction: column;
+    width: 800px;
+}
+
+.volleyball {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/volleycss.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 17%;
+    width: 104%;
+}
+
+.rugby {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/rugbycss.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center 80%; 
+    height: 17%;
+    width: 104%;
+}
+
+.handball {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 30px;
+    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/vraihandballcss.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center 25%; 
+    height: 17%;
+    width: 104%;
+}
+
+.basketball {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/basketcss.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 17%;
+    width: 104%;
+}
+
+.cheerleading {
+    height: 200px;
+    color: white;
+    font-size: 16px;
+    flex-basis: 1400px;
+    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/pompomcss.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}

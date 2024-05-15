@@ -1,0 +1,14 @@
+
+.banner {
+    background-color: #2C3E50; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 20px; /* Padding pour donner de l'espace à l'intérieur de la bannière */
+    text-align: center; /* Centrer le texte */
+    border-radius: 8px; /* Bords arrondis */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ombre pour un effet de profondeur */
+}
+
+/* Style pour le corps de la page pour éviter que le contenu soit caché sous la bannière */
+body {
+    padding-top: 110px; /* Ajustez cette valeur selon la hauteur de votre bannière */
+}

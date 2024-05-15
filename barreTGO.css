@@ -1,0 +1,42 @@
+.barreTGO {
+    background-color: #0C005F; /* Couleur de fond de la bannière */
+    color: white; /* Couleur du texte */
+    padding: 10px 0; /* Ajoute un peu de padding vertical pour augmenter la hauteur */
+    text-align: center; /* Centrer le texte */
+    z-index: 1000; /* Assure que la bannière reste au-dessus des autres éléments */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Ombre pour un effet visuel */
+    border-radius: 8px; /* Bords arrondis */
+    width: 70%; /* Nouvelle largeur pour la bannière */
+    margin: 0 auto; /* Centre la bannière horizontalement */
+}
+
+img.barretgo {
+    filter: grayscale(100%) brightness(100%) sepia(1) saturate(5000%) hue-rotate(180deg);
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease; /* Transition pour le zoom */
+}
+
+img.barretgo:hover {
+    transform: scale(1.1); /* Zoom de 10% lorsque la souris passe sur l'image */
+}
+
+.container3 {
+    display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+    justify-content: space-around; /* Distribue l'espace autour des éléments */
+    align-items: flex-start; /* Alignement au début de chaque élément */
+    flex-wrap: nowrap; /* Les éléments ne passeront pas à la ligne suivante */
+    margin: 20px; /* Ajoute une marge autour du conteneur principal */
+}
+
+.text-under-image {
+    text-align: center; /* Centre le texte sous l'image */
+    margin-top: 10px; /* Ajoute une marge au-dessus du texte pour l'espace */
+    width: 100%; /* Assure que le texte ne dépasse pas la largeur de l'image */
+}
+
+.image-container {
+    margin: 10px; /* Espacement entre les conteneurs d'images */
+    display: flex; /* Utilise Flexbox */
+    flex-direction: column; /* Alignement vertical */
+}

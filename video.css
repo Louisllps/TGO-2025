@@ -1,0 +1,35 @@
+.video-background {
+    width: 100%; /* Prend toute la largeur */
+    overflow: hidden; /* Empêche tout débordement de la vidéo */
+}
+
+.video-background video {
+    width: 100%; /* Largeur à 100% pour couvrir toute la largeur disponible */
+    height: auto; /* Hauteur ajustée automatiquement pour maintenir les proportions */
+    object-fit: cover; /* S'assure que la vidéo couvre la zone disponible */
+}
+
+
+/* Conteneur qui englobe la vidéo pour assurer un positionnement correct */
+.video-background-container2 {
+    top: 0; /* Haut de la fenêtre */
+    left: 0; /* Gauche de la fenêtre */
+    right: 0; /* Droit de la fenêtre */
+    bottom: 0; /* Bas de la fenêtre */
+    width: 100%; /* Largeur totale */
+    height: 100%; /* Hauteur totale */
+    overflow: hidden; /* Empêche tout débordement du contenu vidéo */
+    z-index: -1; /* Garantit que la vidéo reste en arrière-plan */
+    display: flex; /* Utilise Flexbox pour centrer la vidéo */
+    align-items: center; /* Centrage vertical */
+    justify-content: center; /* Centrage horizontal */
+}
+
+/* Style pour la vidéo */
+.video-background2 {
+    position: absolute; /* Positionnement absolu pour faciliter le centrage */
+    width: 560px; /* Largeur automatique pour maintenir les proportions */
+    height: 800px; /* Hauteur automatique pour maintenir les proportions */
+    transform: translateY(-250px); /* Décale la vidéo de 200px vers le haut */
+
+}

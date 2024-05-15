@@ -1,0 +1,36 @@
+
+.banniere-gauche {
+    top: 50%; /* Centrage vertical */
+    left: 10; /* Alignée à gauche */
+    background-color: #0C005F; /* Couleur de fond de la bannière */
+    color: white; /* Couleur du texte */
+    padding: 20px 40px; /* Padding autour du texte */
+    width: 400px; /* Largeur fixe pour la bannière */
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5); /* Ombre pour un effet visuel */
+    border-radius: 10px; /* Bords arrondis */
+    text-align: left; /* Texte aligné à gauche */
+}
+
+.texte-banniere {
+    font-size: 18px; /* Taille du texte */
+    line-height: 1.6; /* Espacement des lignes */
+    font-family: Arial, sans-serif; /* Police du texte */
+    text-indent: 20px;
+}
+
+.banniere-droite {
+    position: relative; /* Position relative pour un léger ajustement si nécessaire */
+    float: right; /* Flotte à droite de la section conteneur */
+    margin-left: auto; /* Automatiquement alignée à droite en ajoutant une marge à gauche */
+    margin-top: -360px; /* Déplace la bannière 20 pixels plus haut que sa position normale */
+    background-color: #0C005F; /* Couleur de fond de la bannière */
+    color: white; /* Couleur du texte */
+    padding: 20px 40px; /* Padding autour du texte */
+    width: 400px; /* Largeur fixe pour la bannière */
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5); /* Ombre pour un effet visuel */
+    border-radius: 10px; /* Bords arrondis */
+    text-align: left; /* Texte aligné à gauche */
+}
+
+
+

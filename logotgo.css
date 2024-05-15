@@ -1,0 +1,21 @@
+.container {
+    display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    margin: 20px; /* Ajoute une marge autour du conteneur principal */
+}
+
+.image-tgo {
+    flex: 0 0 auto; /* L'image ne grandit pas ou ne rétrécit pas mais garde sa taille d'origine */
+    margin-right: 20px; /* Ajoute une marge à droite de l'image pour espacer du texte */
+}
+
+.image-tgo img {
+    width: 200px; /* Définit une largeur fixe pour l'image */
+    height: auto; /* Garde le ratio hauteur/largeur de l'image */
+}
+
+.text-container {
+    width: 120%; /* Assure que le titre prend toute la largeur */
+    margin: 0; /* Aucune marge externe pour que le titre touche les bords de la page */
+    padding: 20px 0; /* Padding vertical pour donner de la hauteur au titre */
+}

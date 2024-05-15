@@ -1,0 +1,51 @@
+
+.fixed-banner {
+    background-color: #0C005F; /* Couleur de fond de la bannière */
+    position: fixed; /* Fixe la bannière en haut de la page */
+    top: 0; /* Positionne la bannière tout en haut */
+    left: 0; /* Alignement à gauche pour couvrir toute la largeur */
+    width: 100%; /* Assure que la bannière s'étend sur toute la largeur */
+    background-color: #0C005F; /* Couleur de fond de la bannière */
+    color: white; /* Couleur du texte */
+    padding: 10px 0; /* Ajoute un peu de padding vertical pour augmenter la hauteur */
+    text-align: center; /* Centrer le texte */
+    z-index: 1000; /* Assure que la bannière reste au-dessus des autres éléments */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Ombre pour un effet visuel */
+    border-radius: 8px; /* Bords arrondis */
+}
+
+
+
+.image-tgo2 {
+    flex: 0 0 auto; /* L'image ne grandit pas ou ne rétrécit pas mais garde sa taille d'origine */
+    margin-right: 20px; /* Ajoute une marge à droite de l'image pour espacer du texte */
+}
+
+.image-tgo2 img {
+    width: 100px; /* Définit une largeur fixe pour l'image */
+    height: auto; /* Garde le ratio hauteur/largeur de l'image */
+}
+
+.containerpetit {
+    display: flex; /* Utilise Flexbox pour aligner les enfants */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+}
+
+.box {
+    width: 150px; /* Largeur fixe pour chaque div */
+    height: 100px; /* Hauteur fixe pour chaque div */
+    background-color: #11065F;; /* Couleur de fond */
+    color: #00C9FF; /* Couleur du texte */
+    margin: 10px; /* Espace entre les divs */
+    display: flex; /* Utilise Flexbox pour centrer le texte à l'intérieur de chaque div */
+    justify-content: center; /* Centre horizontalement le texte à l'intérieur de chaque div */
+    align-items: center; /* Centre verticalement le texte à l'intérieur de chaque div */
+    border-radius: 10px; /* Bords arrondis */
+}
+.container2 {
+    display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    margin: 20px; /* Ajoute une marge autour du conteneur principal */
+}

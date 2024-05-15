@@ -1,0 +1,7 @@
+.container6 {
+    display: flex;
+    flex-wrap: wrap; /* Les éléments se plient sur plusieurs lignes */
+    gap: 30px;
+    margin: 30px;
+}
+
