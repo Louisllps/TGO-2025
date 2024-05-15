@@ -15,7 +15,7 @@
     font-size: 18px;
     flex-basis: 500px;
     height: 730px;
-    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/footcss.jpeg');
+    background-image: url('footcss.jpeg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -30,7 +30,7 @@
     color: white;
     font-size: 14px;
     margin-bottom: 30px;
-    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/volleycss.jpg');
+    background-image: url('volleycss.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -42,7 +42,7 @@
     color: white;
     font-size: 16px;
     margin-bottom: 30px;
-    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/rugbycss.jpeg');
+    background-image: url('rugbycss.jpeg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center 80%; 
@@ -54,7 +54,7 @@
     color: white;
     font-size: 12px;
     margin-bottom: 30px;
-    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/vraihandballcss.jpeg');
+    background-image: url('vraihandballcss.jpeg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center 25%; 
@@ -66,7 +66,7 @@
     color: white;
     font-size: 14px;
     margin-bottom: 30px;
-    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/basketcss.jpeg');
+    background-image: url('basketcss.jpeg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -79,7 +79,7 @@
     color: white;
     font-size: 16px;
     flex-basis: 1400px;
-    background-image: url('/Users/leperonslaes/Documents/School/Audencia/S2/Digital/Site-internet/Picture/pompomcss.jpeg');
+    background-image: url('pompomcss.jpeg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
